@@ -82,6 +82,52 @@ I decided to glue the parts together using a hot glue gun.
 
 ![Screenshot_82](https://github.com/user-attachments/assets/2002f8fc-a8ce-40f7-aa1f-89b2f383b9fc)
 
+at that moment, I folded the model and thought about how to implement vertical and horizontal movement. for some reason, the option of putting one servo on top of another did not occur to me, and I decided to implement vertical movement using the "living hinge". I have modeled a (not the most successful) option in RHinoceros. The idea was that the servo, which controls vertical movement, would be connected by an elastic band to a live loop, so I could move the turret vertically. This solution does not look efficient and reliable enough, but it is copyrighted and it could have been tried to be implemented before the deadline.
+
+the first version was absolutely terrible
+
+![Screenshot_83](https://github.com/user-attachments/assets/6f4269f6-e673-4f34-8dbe-bbb4f17eeafe)
+
+the second one looked more acceptable (I positioned the hinges more tightly to increase strength) and sent it to CorelDRAW to prepare for laser cutting on 3mm plywood.
+
+![Screenshot_84](https://github.com/user-attachments/assets/0468ce49-591e-4349-9f3e-e5662b3b701b)
+
+I also added the same fasteners that are used to fix the elastic band tightening mechanism - I thought it would be useful for better fixation.
+
+Laser cut in action
+
+https://github.com/user-attachments/assets/6af1ea2f-2d88-4f15-b297-de8c139d53f5
+
+Got it
+
+![Screenshot_85](https://github.com/user-attachments/assets/f77a1917-f86d-4024-a038-401da200172d)
+
+The photo shows that when trying to extract the living hinge from the laser cutter, it broke in half. After holding it in my hands, I decided that it might be worth gluing 2 pieces together to increase strength.
+
+there will be no photos of the process of gluing parts together using a hot glue gun, as my hands are stuck to the glue, everything is stuck to the glue, even the glue is stuck to the glue. the most unpleasant sensation was getting a finger burn from hot glue, which I couldn't remove from my finger because it was too fluid. Since it was too far to the sink, I had to train my acceptance.
+
+Result
+
+![Screenshot_86](https://github.com/user-attachments/assets/ab4c205d-4bcf-4224-bba5-55d3d8b4a499)
+
+https://github.com/user-attachments/assets/ae79b114-2efe-4ec7-8a89-1d0a6769c2d3
+
+well, it was a good instructive moment, thanks to which I realized not only the disadvantages of this approach, but also that a hot-glue gun can create an elastic cushion for gluing plywood. Unfortunately, in my case it looks like a toy picked up in the trash.
+
+https://github.com/user-attachments/assets/bc7b1274-f686-4c80-a61b-709a692c9290
+
+Still, I had to check if it could handle the elastic band tension function.
+
+https://github.com/user-attachments/assets/f9cd316e-602f-48a9-a642-e2a2b9dbf23f
+
+
+
+
+
+
+
+
+
 
 
 
