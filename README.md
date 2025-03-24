@@ -5,6 +5,10 @@ This is a training task for making an bow-like turret with Arduino Uno and 3 ser
 
 in 2.0-2.5 hours, make a turret that will be controlled using 2 large servos and 1 small one. The model must be original. A typical code may be the connection code for Arduino uno servos. The model should move horizontally and vertically, and a small servo is used to "release the shutter." You also need to make a projectile. The finished product should not look too collective.
 
+## Important notes
+
+the repository will be divided into 2 blocks - programming and the build itself. since the part related to programming and the assembly of the modules themselves is the same
+
 ## Materials and methods
 
 Arduino Uno R3
@@ -25,6 +29,107 @@ Wires
 The potentiometer (2 pc)
 Button
 Stationery elastic band
+
+## Programming and assembly of electronic components
+
+first, I need to connect the Arduino to the expansion board. In order to do this correctly, I found a diagram on the Internet.
+
+![Screenshot_88](https://github.com/user-attachments/assets/64a835e9-e321-4ff4-802b-9713745c769a)
+
+in this diagram, I see a signed pinout, because I have an expansion board in my hands, where there are no labels.
+
+here you can see what the connection of the modules will look like.
+
+![Screenshot_92](https://github.com/user-attachments/assets/e1116434-16b1-4f9c-9ceb-3756119cdfd3)
+
+and here's what the result of connecting an Arduino to an expansion board should look like.
+
+![Screenshot_93](https://github.com/user-attachments/assets/33156f63-dc0c-44a9-aa82-bbe228478d90)
+
+ready
+
+![Screenshot_94](https://github.com/user-attachments/assets/33fc1f9e-40e8-4913-a537-86685f084f52)
+
+The activation code and and also the connection diagram was found by me on the [Arduino website].(https://docs.arduino.cc/learn/electronics/servo-motors/).
+
+![Screenshot_96](https://github.com/user-attachments/assets/8358fef5-2f89-406e-b134-ff9c3d1befc3)
+
+```#include <Servo.h>
+
+Servo myservo;  // create servo object to control a servo
+
+int potpin = 0;  // analog pin used to connect the potentiometer
+int val;    // variable to read the value from the analog pin
+
+void setup() {
+  myservo.attach(9);  // attaches the servo on pin 9 to the servo object
+}
+
+void loop() {
+  val = analogRead(potpin);            // reads the value of the potentiometer (value between 0 and 1023)
+  val = map(val, 0, 1023, 0, 180);     // scale it to use it with the servo (value between 0 and 180)
+  myservo.write(val);                  // sets the servo position according to the scaled value
+  delay(15);                           // waits for the servo to get there
+}
+```
+then I connected the servos and potentiometers as shown in the diagram above
+
+![Screenshot_97](https://github.com/user-attachments/assets/7bb40149-a567-4e25-a4a1-83e247cdc4d1)
+
+![Screenshot_98](https://github.com/user-attachments/assets/c9734537-7eee-4316-a2f7-6b49ba6b0fcb)
+
+then I entered the code into the Arduino IDE program and started editing it, since in the example from the Arduino website, only one motor could be used.
+
+![Screenshot_91](https://github.com/user-attachments/assets/9af27400-2346-4f01-9e24-8e93054c6054)
+
+the code to copy with descriptions
+
+```
+#include <Servo.h> // activate the library for working with servos (it is available by default, you do not need to download it)
+
+Servo myservo1;  // create servo object to control a servo1, there is a difference from examples code - we need to mark our servo by servo1 and servo2
+Servo myservo2;
+
+int potpin1 = 0;  // analog pin used to connect the potentiometer, we need to mark it like in example with servo
+int potpin2 = 1; // use correct analogue pin number from my connection
+int val1;    // variable to read the value from the analog pin, need to mark it also
+int val2;
+
+void setup() {
+  myservo1.attach(9);  // attaches the servo on pin 9 to the servo object
+  myservo1.attach(10); // need to use correct pin number from my connection and also mark it
+}
+
+void loop() {
+  val1 = analogRead(potpin1);            // reads the value of the potentiometer (value between 0 and 1023)
+  val1 = map(val1, 0, 1023, 0, 180);     // scale it to use it with the servo (value between 0 and 180)
+  myservo1.write(val1);                  // sets the servo position according to the scaled value
+  delay(15);                           // waits for the servo to get there
+
+  val2 = analogRead(potpin2);            // write command for 2 servo and also mark all
+  val2 = map(val2, 0, 1023, 0, 180);     
+  myservo2.write(val2);                  
+  delay(15);    
+}
+```
+result
+
+https://github.com/user-attachments/assets/77b29c66-32ca-43d1-93ab-938e3dcac789
+
+everything is working. now we need to connect the third SG90 servo by analogy.
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Turret v 1
 
