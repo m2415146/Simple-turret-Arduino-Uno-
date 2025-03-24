@@ -225,6 +225,74 @@ Still, I had to check if it could handle the elastic band tension function.
 
 https://github.com/user-attachments/assets/f9cd316e-602f-48a9-a642-e2a2b9dbf23f
 
+## Create connecting parts with motors
+
+in order to model the mounts, I need ready-made files with motors. I don't see the point in modeling them from scratch, since I can handle this task and I don't see the point in wasting time on it. other people have already done this. the meaning of my task is different
+
+I took the model files from [this site].(https://grabcad.com/library/tag/mg995)
+
+![Screenshot_99](https://github.com/user-attachments/assets/8f0271b0-cbe8-4294-acb1-3cc5a682507d)
+
+[MG995 Servo].(https://grabcad.com/library/mg995-servo-3)
+
+[mounting on the "asterisk" motor].(https://grabcad.com/library/mg995-star-horn-gear-1)
+
+The first iteration will be with the simplest way to place the motors: one on top of the other. in fact, I will need to model the fasteners for them and make a platform so that the structure does not tip over.
+
+First, let's start by importing the engines themselves. I imported a file format from various files in the archive into RhinoCeros 8.IGS
+
+![Screenshot_100](https://github.com/user-attachments/assets/9eff4dd6-cec1-4c1f-85ab-653fd5e2dc2d)
+
+I use a motor mount in the same format. after importing into Rhino, I turned the motor so that the rotating part was pointing upwards, and the mount coincided with this part.
+
+![Screenshot_101](https://github.com/user-attachments/assets/89784c4f-a22a-496c-949e-c55aa8222dd7)
+
+the approximate location is ready. to do this, I combined and copied the motor with the mount and positioned it so that vertical movement was possible.
+
+![Screenshot_102](https://github.com/user-attachments/assets/b19bd237-ebad-4501-bdc2-a1ab247b41af)
+
+at that moment, it became clear to me that vertical movement would be implemented in a slightly different way. to do this, I asked google a question and this is what it answered me.:
+
+![Screenshot_103](https://github.com/user-attachments/assets/7c987ed6-af8e-4c98-a1af-450e4cbd3a63)
+
+I found an [interesting article on habr].(https://habr.com/ru/articles/200516/) that explained to me how movement along different axes would occur.
+
+![Screenshot_104](https://github.com/user-attachments/assets/883cbc34-1ea2-41e1-aad8-c2761a9dc43f)
+
+at that moment, I thought about the fact that the cannon would have to be shifted to the side even more than I thought. but for now, I'm not going to think about how to position it vertically, as my head is already boiling.
+
+it is also better to imagine the movement of the cannon, I was helped by such a drawing from the same google query.
+
+![Screenshot_106](https://github.com/user-attachments/assets/6b56b44a-d93f-4af5-9d82-4c88489fb651)
+
+now I know that such a mechanism is called a "swivel cannon".
+
+Now it's time to add the [SG90 servo model].(https://grabcad.com/library/4145-towerpro-sg90-mini-servo-sunrobotics_in-1) here.
+
+![Screenshot_107](https://github.com/user-attachments/assets/5664552b-2886-4c32-8d4f-8f97baf16031)
+
+The movement system is increasingly coming together. I imported the SG90 model in the format.STEP (this, of course, was worth doing with other models). I may still be moving the models between each other, but the general scheme is already clear. Now I need to think about how I'm going to connect the motors together.
+
+![Screenshot_108](https://github.com/user-attachments/assets/ec320de7-fc21-4163-bdf4-56e73161ac8e)
+
+Nevertheless, I decided to position the SG90 differently, since it should act as a trigger.
+
+![Screenshot_109](https://github.com/user-attachments/assets/25d2857b-b6dc-4efa-ba0e-ac05c9771f5b)
+
+actually, at this stage it would be possible to look for special holders for servomotors, but I wanted to model them myself.
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
