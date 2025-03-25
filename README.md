@@ -225,7 +225,7 @@ Still, I had to check if it could handle the elastic band tension function.
 
 https://github.com/user-attachments/assets/f9cd316e-602f-48a9-a642-e2a2b9dbf23f
 
-## Create connecting parts with motors
+### Create connecting parts with motors
 
 in order to model the mounts, I need ready-made files with motors. I don't see the point in modeling them from scratch, since I can handle this task and I don't see the point in wasting time on it. other people have already done this. the meaning of my task is different
 
@@ -281,6 +281,32 @@ Nevertheless, I decided to position the SG90 differently, since it should act as
 
 actually, at this stage it would be possible to look for special holders for servomotors, but I wanted to model them myself.
 
+in real life, I started modeling the "advanced" version 2 at this stage, and returned to this one later.
+
+## Turret v2
+
+### Create a model
+
+The first part of creating models is described in version 1.
+
+There have been many corrections and alterations. So I will focus only on the main points.
+
+this is the final result after several corrections.
+
+![Screenshot_126](https://github.com/user-attachments/assets/75c7ad07-f00d-44c9-a4c3-fbd35eef6203)
+
+I've taken a few points as a basis.: 
+
+1) Since, due to the location of the engines I have chosen, the turret will have a clear shift in the center of gravity towards the cannon itself, I decided to create a large base that should give stability to the structure;
+2) also, for balance, I positioned the volumetric part in the opposite direction from the gun. initially, I wanted to make a support wheel there, which would provide another fulcrum, but I decided that I would have to make changes to the design, which would take too much time anyway, and abandoned this idea.;
+3) the motors will be fixed by matching the shape of the holders to the shape of the motors;
+4) The upper part of each of the motors will remain free. instead of screws, I will try to use specially modeled pins on the holders.;
+5) the big problem (which made me redo the holders) was that I underestimated the size of the wire. There should be plenty of room in the final version;
+6) I wanted to avoid angular shapes as much as possible in order to train myself to a different visual mindset during modeling, as well as to make the turret more stylish.;
+7) I use PLAY filament for printing, as it prints quickly and has a fairly low shrinkage;
+8) during the simulation, I did NOT provide for shrinkage compensation, nor did I adjust the geometry to make the landing of the motor more free. keep this in mind if you try to repeat the project.;
+9) I turned out to have too many components and to fix them with each other, I probably have to use an acrylate glue. I should have made the structure more monolithic;
+10) the weaknesses that are obvious to me at the moment, while the final sample is being printed, are the fixation of holders with nozzles on the motors and excessive load on the vertical servo;
 
 
 
