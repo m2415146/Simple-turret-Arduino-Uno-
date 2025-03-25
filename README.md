@@ -308,6 +308,110 @@ I've taken a few points as a basis.:
 9) I turned out to have too many components and to fix them with each other, I probably have to use an acrylate glue. I should have made the structure more monolithic;
 10) the weaknesses that are obvious to me at the moment, while the final sample is being printed, are the fixation of holders with nozzles on the motors and excessive load on the vertical servo;
 
+### Important notes
+
+now I will focus on a few points in more detail, since I am not sure that I have the strength to describe the modeling step by step.
+
+this is what the model version looked like when I was still planning to make a wheel as an additional support for a vertical servo. there were flaws, for example, one layer at a time on the cutouts of the crossbow, an unfinished arrow, but at this stage I launched the printing platform, as well as horizontal and vertical holders for the servo. At that moment, the idea of "hiding the wires inside the structure" seemed attractive to me, but I did not approach it carefully enough.
+
+![Screenshot_110](https://github.com/user-attachments/assets/48ebe76c-ac53-420f-858b-aa52fa60cd89)
+
+The printer is FlashForge V5 Pro, the filament is Pla Geeetech, printing is carried out from a Reality Space Plus filament dryer, the filament was dried at 50 degrees, heating was about 1-1.5 hours before printing. Slicing in the OrcaSLicer 2.2 0.4  nozzle.
+
+slicing
+
+![Screenshot_116](https://github.com/user-attachments/assets/ab5a5bf1-e51e-4101-90f5-db783f0f6823)
+
+
+I had to redo the holder for the SG90 servo, as its rounded shape did not allow it to be adequately positioned on the printing table.
+
+![Screenshot_112](https://github.com/user-attachments/assets/41263715-8a48-408f-a516-308f40725453)
+
+I either had to change the model from scratch or add a plane to it so that it could be adequately printed.
+
+detail before adding the plane
+
+![Screenshot_114](https://github.com/user-attachments/assets/5ba6c60d-9258-498b-9999-fb8df56a0830)
+
+a detail with an added plane, but not yet edited
+
+![Screenshot_115](https://github.com/user-attachments/assets/996a166f-1141-4d34-be04-eb0f8c03368d)
+
+![Screenshot_117](https://github.com/user-attachments/assets/8b98a247-f346-4a55-a8b0-a2fe37106156)
+
+despite the modification of the model, I had to use the support. this is my first experience of manually setting supports. I have drawn the areas where, in my opinion, it is necessary to put tree supports.
+
+![Screenshot_119](https://github.com/user-attachments/assets/a324558a-7ed8-4ad4-b006-d5909ba78c86)
+
+I also had to print the parts vertically to balance the center of gravity (because of their convex shape). I didn't want to change the form, so I also used the support
+
+![Screenshot_120](https://github.com/user-attachments/assets/48b3b4b9-3213-43f6-8559-780e0470d84a)
+
+the result of the first print
+
+![Screenshot_127](https://github.com/user-attachments/assets/bee1a559-470d-4140-a7f0-2a3a3f1250dc)
+
+the horizontal motor holder fits perfectly into the platform. but there were problems with attaching the motor to the nozzle, which is why I had to redo the part. the problem arose because I got confused in the large number of objects on the screen and missed what I had done with the "Boolean difference"
+
+https://github.com/user-attachments/assets/25f7b200-42bd-44e9-91b0-6c6e4b00b803
+
+The fit of the lower part of the motor seemed normal and tight enough to me, but I couldn't check it because I made a mistake with the size of the channel for the wires.
+
+https://github.com/user-attachments/assets/65a23e0b-7391-4b7f-87bc-26e12df502be
+
+the problem with the channel for the wires was that it was not large enough
+
+https://github.com/user-attachments/assets/c884aaf5-ebb3-4648-a74f-3de0955774e6
+
+I tried to solve this problem by using dental micro-examination.
+
+![5411559949038908745](https://github.com/user-attachments/assets/464c4bfc-d638-444f-ad3b-55859c9d93e6)
+
+unfortunately, there were chips, which turned out to be quite difficult to remove. Perhaps the problem is partly related to the low melting point of PLA, and during processing at 30,000 rpm, it was locally heated and the chips were slightly fused. I was trying to use wire cutters and a wrench for the nuts from my 3d printer
+
+![5411559949038908746](https://github.com/user-attachments/assets/f6faee17-adc7-49bd-82b1-02a20860c1ee)
+
+![5411559949038908747](https://github.com/user-attachments/assets/e331b57d-e70f-4cc3-9519-27b00e8613d4)
+
+finally, I decided to leave the platform, as it remained functional after the correction. The correction of the holders did not work out, so I decided to fix the errors on the 3d model itself and re-print it.
+
+![5411559949038908748](https://github.com/user-attachments/assets/5b86bc23-b033-47a9-a96d-5f817f422102)
+
+during the correction of 3D models, the "channels" for the wires became too large and the overhang area increased. I had to make the roof of the channel rounded to improve the print quality.
+
+an example of a corrected channel
+
+![Screenshot_128](https://github.com/user-attachments/assets/b4528b9b-edbe-4be3-ae77-b51ef8dcb4ea)
+
+I uploaded the corrected models along with the models that I haven't printed yet to OrcaSlicer.
+
+![Screenshot_125](https://github.com/user-attachments/assets/a2b5660f-c116-4709-9f0e-298406563991)
+
+The printing process
+
+https://github.com/user-attachments/assets/13c5059e-5b36-4f48-8a3b-ab2aa565bd26
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
