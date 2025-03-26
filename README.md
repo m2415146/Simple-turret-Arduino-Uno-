@@ -391,6 +391,13 @@ The printing process
 
 https://github.com/user-attachments/assets/13c5059e-5b36-4f48-8a3b-ab2aa565bd26
 
+Ready
+
+![Снимок экрана (17)](https://github.com/user-attachments/assets/b2379ac4-dd7e-4053-8e19-1420ab17a4f3)
+
+But there was some problems
+
+
 
 
 
