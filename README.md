@@ -395,7 +395,106 @@ Ready
 
 ![Снимок экрана (17)](https://github.com/user-attachments/assets/b2379ac4-dd7e-4053-8e19-1420ab17a4f3)
 
-But there was some problems
+But there was some problems. again, I did not provide enough space for the wires, because I did not appreciate that I needed to provide ways to insert the motor into the holder. To fix this, I had to use a dental machine again to drill the models.
+
+![Screenshot_237](https://github.com/user-attachments/assets/5c9e318c-7909-4f89-93b8-636fa9b86781)
+
+after the modification, the fixation of the motors in the holders became excellent. I also had to remove the internal bushings, since the motors are held by fixing the walls of the motors with a holder.
+
+![Screenshot_238](https://github.com/user-attachments/assets/2cb50689-93ba-4f8d-8377-c6384e4278be)
+
+![Screenshot_239](https://github.com/user-attachments/assets/a193a429-c654-4c8e-ad08-50ad5a5110f1)
+
+let's check the fixation of the horizontal motor holder in the platform
+
+https://github.com/user-attachments/assets/2ac87a01-2f8f-43cb-a191-a22ad174774b
+
+the weak part of the project also becomes obvious - the idea of installing a holder in the nozzles for motors clearly failed.
+
+https://github.com/user-attachments/assets/52dfdcd5-58bd-42e1-8c4a-2cefd9eaca6b
+
+There is also a good fixation of the sg90 servo into its holder.
+
+![Screenshot_240](https://github.com/user-attachments/assets/8a3b36d9-b999-402f-b833-7b09b3aa01b0)
+
+there was a problem with one of the parts for assembling the bow - I did not provide the tolerances and the beam got stuck inside the hemisphere. I didn't like the option of sawing it, since the walls are quite thin and I can permanently damage the model.
+
+![Screenshot_241](https://github.com/user-attachments/assets/20956203-14a2-47d8-809d-01030c383d5d)
+
+to install the beam in the hemisphere, it had to be literally hammered there.
+
+https://github.com/user-attachments/assets/a4b011a6-cd29-4493-bc1e-ecf17208657e
+
+Fortunately, everything worked out.
+
+![Screenshot_242](https://github.com/user-attachments/assets/f5d4edb7-ddc7-425e-9859-565c75269659)
+
+I also did not provide for a good fixation of the adapter from the sg90 servo to the bow. this happened because I got confused about Boolean operations and didn't cut out everything. I also did not provide for the distance at which the nozzle on the sg90 is located from the servo housing itself.
+
+![Screenshot_243](https://github.com/user-attachments/assets/60f27f8e-50f7-4972-9384-cc9b2efef8a2)
+
+since this problem became apparent already at school and there is no dental motor in FabLab, I tried using a screwdriver.
+
+![Screenshot_244](https://github.com/user-attachments/assets/9ea01f2c-1892-497b-996b-60dc239940de)
+
+In order not to damage my hands during this process, I tried to fix the model using a special FabLab holder and pliers. I do not recommend repeating this experience because of the poor fixation of the model during drilling.
+
+![Screenshot_245](https://github.com/user-attachments/assets/8d79f099-db70-452f-b58b-5bbd032159fb)
+
+despite my efforts, the result was unsatisfactory. I didn't want to re-model the model and print it, but I guess I'll have to do this.
+
+![Screenshot_246](https://github.com/user-attachments/assets/a983f141-6036-4a36-a6d9-20c3271443bc)
+
+in order to remove the supports from the parts that are supposed to balance the structure, I used special pliers from a 3D printer.
+
+![Screenshot_247](https://github.com/user-attachments/assets/f65c65e2-feea-4397-bb40-48a0fc05c8ea)
+
+the result was acceptable . my first experience with installing the supports manually on an FDM printer turned out to be successful
+
+![Screenshot_248](https://github.com/user-attachments/assets/3642354b-7555-445d-88b5-1bf43eccdd06)
+
+I re-modeled the adapter from the sg90 servo to the bow in Rhino, also made a new arrow model so that it was wider and better fixed on the bow plane, and also added 2 models of small supports for better fixation of the bow in the adapter to the sg90
+
+![Screenshot_249](https://github.com/user-attachments/assets/43784b96-8bfe-4f76-86de-92bbbcaba83b)
+
+![Screenshot_250](https://github.com/user-attachments/assets/561d3b97-f6db-4b89-b166-515801331e51)
+
+slicing was done in OrcaSLicer by a teacher from FabLab
+
+![Screenshot_251](https://github.com/user-attachments/assets/84c91b3a-445e-4724-804d-99976d469197)
+
+material - PLA from SolidFilament
+
+![Screenshot_252](https://github.com/user-attachments/assets/fbe6ce07-f306-43a6-9aef-461c5b9a8f91)
+
+3d printing on the FlashForge a5m printer
+
+https://github.com/user-attachments/assets/f44737e5-a3da-4e1b-8f72-55dd6a3c34df
+
+Ready
+
+![Screenshot_253](https://github.com/user-attachments/assets/544c102a-e180-4cd4-87e0-342dce508006)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
