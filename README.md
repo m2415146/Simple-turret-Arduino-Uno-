@@ -475,6 +475,59 @@ Ready
 
 ![Screenshot_253](https://github.com/user-attachments/assets/544c102a-e180-4cd4-87e0-342dce508006)
 
+The adapter for sg90 servos was a great fit. I was worried about fixing it with the motor, but it holds without additional accessories.
+
+![Screenshot_254](https://github.com/user-attachments/assets/e1d33acd-eb81-43b9-97e1-a589ff912e2e)
+
+view of the assembled model. adapters for additional mounting are also visible here. I attached them with a hot glue gun. traces of glue are also visible in the photo. Unfortunately, they didn't work out the way they look in the simulation. It was probably worth making them bigger.
+
+![Screenshot_255](https://github.com/user-attachments/assets/1fe648ad-8fa1-4160-b292-00628954b655)
+
+It is worth adding that the nozzles for the servo were also glued with a hot-glue gun to the holders themselves.
+
+![Screenshot_256](https://github.com/user-attachments/assets/5b407743-e9d6-4ece-8ef3-b6d3dcfde20b)
+
+view of the landing pad with applied glue
+
+![Screenshot_257](https://github.com/user-attachments/assets/f1360b3a-79ca-4394-b5f8-94a4868934d0)
+
+ready-made view of the assembled cannon
+
+![Screenshot_258](https://github.com/user-attachments/assets/aac44647-a60e-4797-9358-280abee852d1)
+
+at this stage, I double-checked the wiring connection again. in fact, it was at this stage that I changed the program code so that the sg90 servo would work (a reference to the programming point)
+
+![Screenshot_259](https://github.com/user-attachments/assets/c65804a6-6b77-44b7-a922-52376182437c)
+
+Let's check the mobility of the cannon
+
+https://github.com/user-attachments/assets/06f000eb-c887-46e0-982a-5e6f9a20a641
+
+an important point: I did not use the arrow that I originally printed for two reasons: I made it too narrow for the bow platform and it also turned out to be too light. so I used an arrow that I modeled based on the size of the landing pad. here we found out another nuance: the landing pad turned out to be too short in length, which is why the boom was outweighed by the leading edge. to fix this, I glued the failed parts to the tail of the boom to change the center of gravity. It's not much, but it has improved the situation a bit.
+
+view of the cannon with the final version of the arrow with a weighting
+
+![Screenshot_260](https://github.com/user-attachments/assets/f3f318ed-651b-4116-a4b0-2d0d5246ec56)
+
+I also had to connect the wires to each other to increase the distance to the microcontroller somewhat.
+
+the task has already been completed. But let's check how the cannon fires.
+
+https://github.com/user-attachments/assets/c0ba1162-a51b-4361-8790-3373cb76dddb
+
+Of course, I wouldn't call it a powerful weapon, but the cannon works.
+
+### What's next?
+
+if I have time, I want to change the model. here are a few points that I want to fix: hide the wires inside the cannon body; change the fixation of the parts with each other so that glue is not required; change the shape of the bow and arrow to improve balance and range; make a housing for the microcontroller so that a beautiful and functional control panel comes out; change the design so as to reduce the number of elements, which the model consists of. These points will help me to work on mistakes, train my engineering thinking and take into account the difficult moments of modeling and assembly in the future.
+
+
+
+
+
+
+
+
 
 
 
