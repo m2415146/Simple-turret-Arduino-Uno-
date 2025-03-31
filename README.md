@@ -9,6 +9,13 @@ in 2.0-2.5 hours, make a turret that will be controlled using 2 large servos and
 
 the repository will be divided into 2 blocks - programming and the build itself. since the part related to programming and the assembly of the modules themselves is the same
 
+## Important Update
+
+Add added g-code/3mf with final v2 models for FF a5m (pro)
+
+![Screenshot_282](https://github.com/user-attachments/assets/538d772f-a9d2-4672-b795-6fd2591729af)
+
+
 ## Materials and methods
 
 Arduino Uno R3
