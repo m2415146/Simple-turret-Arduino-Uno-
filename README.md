@@ -118,18 +118,58 @@ https://github.com/user-attachments/assets/77b29c66-32ca-43d1-93ab-938e3dcac789
 
 everything is working. now we need to connect the third SG90 servo by analogy.
 
+final corrected code from sg90
 
+```
+#include <Servo.h>
 
+#define SERVO_PIN1 3
+#define SERVO_PIN2 9
+#define SERVO_PIN3 10 
+#define POT_PIN1 A0
+#define POT_PIN2 A1
+#define BUTTON_PIN 2  
 
+Servo myservo1;
+Servo myservo2;
+Servo myservo3;
 
+int val1, val2;
+int servo3Position = 90;
+int buttonState = 0;
 
+void setup() {
+  myservo1.attach(SERVO_PIN1);
+  myservo2.attach(SERVO_PIN2);
+  myservo3.attach(SERVO_PIN3);
+  pinMode(BUTTON_PIN, INPUT); 
+}
 
+void loop() {
+  val1 = map(analogRead(POT_PIN1), 0, 1023, 0, 180);
+  myservo1.write(val1);
+  
+  val2 = map(analogRead(POT_PIN2), 0, 1023, 0, 180);
+  myservo2.write(val2);
 
-
-
-
-
-
+  buttonState = digitalRead(BUTTON_PIN);
+  
+  if (buttonState == HIGH) {  
+    if (servo3Position < 180) {
+      servo3Position += 5;  
+    }
+    delay(1);
+  } else {
+    if (servo3Position > 0) {
+      servo3Position -= 5; 
+    }
+    delay(1);
+  }
+  
+  myservo3.write(servo3Position);
+  delay(15);
+}
+```
 
 ## Turret v 1
 
@@ -284,6 +324,26 @@ actually, at this stage it would be possible to look for special holders for ser
 in real life, I started modeling the "advanced" version 2 at this stage, and returned to this one later.
 
 ## Turret v2
+
+### Assembly diagram
+
+Main part
+
+![Screenshot_278](https://github.com/user-attachments/assets/8299083a-71a3-45dd-8a4a-0ea821a7bee8)
+
+Back part (it is possible without it)
+
+![Screenshot_279](https://github.com/user-attachments/assets/cf3d9e4e-7c97-466f-85d0-f2f36c738d9d)
+
+Bow
+
+![Screenshot_280](https://github.com/user-attachments/assets/5efd7475-4ee5-43b8-9c0d-0e77b8697bb0)
+
+Upeer model view
+
+![Screenshot_281](https://github.com/user-attachments/assets/beb2987c-e8b0-4040-bd9f-629afc968726)
+
+
 
 ### Create a model
 
