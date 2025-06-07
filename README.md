@@ -671,7 +671,48 @@ The star on the front of the store performs a purely decorative function. Since 
 
 ![2025-06-07_15-01-23](https://github.com/user-attachments/assets/cd38881c-8766-4c8d-b1bb-93523a3f1f7b)
 
-4. 
+4. The star on the front of the store performs a purely decorative function. Since the Chinese author marked out the image of a dragon in the original multi-shot model of the crossbow, I decided that the crossbow from Russia could well have an image of a star.
+
+![2025-06-07_15-06-32](https://github.com/user-attachments/assets/1d5c1cde-c259-4a09-ae13-2142948f39dd)
+
+5. The gears were modeled by me using an online gear generator. The gear ratio is 2.5. A small gear is mounted on the servo shaft, while a large gear transmits rotation to a lever that makes the swam magazine rotate.
+
+![2025-06-07_15-08-59](https://github.com/user-attachments/assets/769b908e-241f-4836-a911-ea9245de8ccb)
+
+in order to reduce the weight of the structure, I did not place the gears on the other side, replacing them with levers, which I connected to the axis of rotation of the gears using specially modeled bushings, into which I also inserted M3 screws.
+
+![2025-06-07_15-11-05](https://github.com/user-attachments/assets/8f9f00cc-d7ab-4e23-a6fa-ea0920393523)
+
+6. Since the weight of the magazine has increased significantly, and the tension of the bowstring must also be taken into account, I used the MG995 servo instead of the SG90 to make it do the job. I connected it to the base of the crossbow, fixed it with gears using a system of bushings and caps.
+
+![2025-06-07_15-13-06](https://github.com/user-attachments/assets/90ac694d-1582-4090-bb20-0292397c2b6d)
+
+7. the system of connecting the motor to the base of the crossbow required the creation of a complex
+
+![2025-06-07_15-15-06](https://github.com/user-attachments/assets/2615821f-3928-49ad-9902-801d2b954870)
+
+8. To connect to the rotating crossbow plate, given its size and weight, I had to use a two-point fixation: in the area of the motor installation, as well as an arc-shaped crossbar, which is fixed to the back of the crossbow. The arched crossbar not only stabilizes the crossbow during firing, but, if necessary, it can be replaced with a springy part like live loops to reduce vibrations during firing and increase the accuracy of the shot.
+
+![2025-06-07_15-16-30](https://github.com/user-attachments/assets/45496712-34a4-42d3-a062-f6a391ad1b80)
+
+9. in order to reduce the load on the axis of the servo, which drives the crossbow to rotate vertically, I used the bearing design to distribute the load over the area. One part of it consists of a convex radial part, and the other consists of a correspondingly radially concave one.
+
+![2025-06-07_15-18-42](https://github.com/user-attachments/assets/71bf800e-dc31-4e24-8c5c-936f711f20ff)
+
+10. To stabilize the crossbow platform, I used an additional three-point mount on the surface, which is mounted on an existing platform.
+
+![2025-06-07_15-20-18](https://github.com/user-attachments/assets/594b9efc-d607-4b7a-9361-0c64461877de)
+
+11. Arrow. A special mention should be made of the modification of its shape: in order to move the center of gravity of the arrow closer to the front of the arrow, I used a variable diameter - the arrow expands to the tip and narrows to the shank. it also reduces the friction of the arrow in the channel of the crossbow. Additionally, given that my design does not provide for the tail of the boom, to stabilize it in flight, I used grooves that I modeled at equal distances from each other in the rear of the boom to stabilize it during flight.
+
+![2025-06-07_15-22-20](https://github.com/user-attachments/assets/cffb0b75-c8f0-4549-8db6-85d5874de520)
+
+
+
+
+
+
+
 
 
 
