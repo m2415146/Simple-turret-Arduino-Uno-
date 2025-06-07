@@ -641,6 +641,46 @@ After researching this topic for 2 weeks, I realized that developing a reversibl
 3. As compact as possible, given my design, due to the reversible shoulder width
 4. The system itself is complex and has appeared on the market of real crossbows in the last few years.
 
+### Model
+
+![2025-06-07_14-41-11](https://github.com/user-attachments/assets/7d813a7e-f371-4bf0-b7f1-4733cf934ffc)
+
+The model was created using Rhinoceros 8. There have been many iterations. Given the number of elements, I had to master the placement of different parts on different layers, perform multiple Boolean operations, and so on. At the moment, it has the following elements:
+
+1. Reversible blocks and the part combining them (indicated in green). The design of the living loops is applied for the purpose of limited elasticity, and the connection of these parts to each other is made using long metal screws M3
+
+![2025-06-07_14-48-09](https://github.com/user-attachments/assets/565805d0-6b46-4ae5-95a9-55f7cdb1979d)
+
+2. Each shoulder is a monolithic structure with cutouts all over to reduce weight.
+
+![2025-06-07_14-50-20](https://github.com/user-attachments/assets/1899cf08-92b2-4ba3-986a-70eef5dcc979)
+
+3. The blocks were created by me on the basis of the model of the crossbow with blocks, which I showed above, by tearing off the surface from the original blocks, converting them into a volumetric geometry using the extrusion and cap procedure, I also adjusted them to the size of my crossbow, increased the diameter of the internal concavity for the bowstring to ensure its better fixation during operation. The blocks are 2 models: complex and simple, there are 3 floors of blocks - the upper one for the main bowstring, as well as the middle and lower ones for the bowstring of the blocks themselves, which will be connected to each other (right and left) crosswise. Fixing the blocks in the shoulders with the help of bushings, which were also modeled by me
+
+![2025-06-07_14-51-33](https://github.com/user-attachments/assets/1aa4128c-d396-4c28-8f2a-86c302afc92a)
+
+3. The crossbow bed consists of 2 models: the upper one, which is also a magazine for 7-9 arrows, the lower one, which is motionlessly connected to the base of the crossbow, is needed so that the movement of the upper one takes place around it. There are 2 cutouts - on the magazine there is a cutout for the entrance of the main bowstring, it is equipped with a cutout for gripping the bowstring. There is also a cutout in the base for placing bowstrings.
+
+![2025-06-07_14-57-12](https://github.com/user-attachments/assets/6548f519-54d6-4404-8759-60439d1a242c)
+
+The openings in the magazine are designed to reduce the weight of the structure.
+
+![2025-06-07_14-59-53](https://github.com/user-attachments/assets/b4f19c5c-e77c-4c6a-a8b1-c3e1c1f9085b)
+
+The star on the front of the store performs a purely decorative function. Since the Chinese author marked out the image of a dragon in the original multi-shot model of the crossbow, I decided that the crossbow from Russia could well have an image of a star.
+
+![2025-06-07_15-01-23](https://github.com/user-attachments/assets/cd38881c-8766-4c8d-b1bb-93523a3f1f7b)
+
+4. 
+
+
+
+
+
+
+
+
+
 
 
 
