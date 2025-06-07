@@ -588,6 +588,65 @@ Of course, I wouldn't call it a powerful weapon, but the cannon works.
 
 if I have time, I want to change the model. here are a few points that I want to fix: hide the wires inside the cannon body; change the fixation of the parts with each other so that glue is not required; change the shape of the bow and arrow to improve balance and range; make a housing for the microcontroller so that a beautiful and functional control panel comes out; change the design so as to reduce the number of elements, which the model consists of. These points will help me to work on mistakes, train my engineering thinking and take into account the difficult moments of modeling and assembly in the future.
 
+## Turret v3
+
+Now I had new tasks in front of me: the arrow of the crossbow should pierce the balloon, the crossbow should be multi-shot and with automatic reloading. To achieve these goals, I decided to increase the power of the shot and not use life hacks like my colleagues by putting a needle on the arrowhead.
+
+### Existing models
+
+The biggest problem was to make automatic recharging, so I started looking for existing analogues to use the principles from there.
+
+[the model with automatic recharge, which formed the basis of my design]([https://www.example.com](https://makerworld.com/en/models/220558-china-zhuge-crossbow-v3-0-zhuge-liannu-v3-0-editio#profileId-239063))
+
+![2025-06-07_14-05-08](https://github.com/user-attachments/assets/3d7d2b20-743d-40a7-a721-87eda0a292a2)
+
+I spent more than a week trying to figure out how the bowstring capture mechanism is implemented, until I reviewed this capture. Printing a model for this purpose was not considered by me, as the printing process would take more than 20 hours.
+
+![2025-06-07_14-12-55](https://github.com/user-attachments/assets/4532f713-ab86-4d98-be0a-8ad7460280d5)
+
+The principle of a block crossbow is also implemented here, although there are no rotating blocks themselves. This principle is realized by connecting the arms of the crossbow to the body.
+
+![2025-06-07_14-14-51](https://github.com/user-attachments/assets/6e475131-c8d0-48b8-8a0f-6317940b9f05)
+
+[block crossbow]([[https://www.example.com](https://makerworld.com/en/models/220558-china-zhuge-crossbow-v3-0-zhuge-liannu-v3-0-editio#profileId-239063)](https://makerworld.com/en/models/99858-70-lbs-compound-crossbow?from=search))
+
+![2025-06-07_14-25-56](https://github.com/user-attachments/assets/b461b022-4b37-4b76-bd9f-d76f150759c4)
+
+This model was used by me in order to construct the blocks. in fact, in the first iterations, I used blocks from there, just reducing them in size, until it turned out that I needed to change their structure on my own for my model.
+
+[bow](https://makerworld.com/en/models/613408-full-3d-printed-bow?from=search#profileId-536716)
+
+![2025-06-07_14-28-46](https://github.com/user-attachments/assets/de73d8d3-dc1c-46cb-85d7-affe5f8163dd)
+
+This model made me think that it is good to use live loops in the construction of a crossbow for greater elasticity.
+
+[bow with blocks]([https://makerworld.com/en/models/613408-full-3d-printed-bow?from=search#profileId-536716](https://makerworld.com/en/models/1140708-compound-bow#profileId-1143034))
+
+![2025-06-07_14-30-44](https://github.com/user-attachments/assets/e7ad0ad1-56fc-499f-a35f-495a8f46bf95)
+
+This model made me think that blocks can help give strength to my shot and simplify the tension of the bowstring.
+
+[reversible block crossbow](
+https://market.yandex.ru/product--kompaktnyi-blochnyi-arbalet-bearhunter-s-obratnymi-plechami-model-doom-mini-obratnaia-mamba-strely-15-3-sht-nabor-kliuchei-sertifikat/1875240505?sku=102050269815&uniqueId=13970765&do-waremd5=_TxslVlofouHroCiEcj0w)
+
+![2025-06-07_14-32-47](https://github.com/user-attachments/assets/82ef3a57-e2bc-4810-80ed-abfde5d1ca61)
+
+I should definitely mention this real reversible block crossbow, as it served as the basis for planning the placement of blocks of my design.
+
+### Conclusions
+
+After researching this topic for 2 weeks, I realized that developing a reversible block crossbow would be effective for my model. its advantages:
+1. Powerful shot
+2. Automatic reloading, combined with a trigger and tension system for the bowstring, which I can implement with a single motor.
+3. As compact as possible, given my design, due to the reversible shoulder width
+4. The system itself is complex and has appeared on the market of real crossbows in the last few years.
+
+
+
+
+
+
+
 
 
 
