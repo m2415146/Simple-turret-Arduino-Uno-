@@ -707,7 +707,21 @@ in order to reduce the weight of the structure, I did not place the gears on the
 
 ![2025-06-07_15-22-20](https://github.com/user-attachments/assets/cffb0b75-c8f0-4549-8db6-85d5874de520)
 
+### A ready-made crossbow
 
+It was made using 3D printing from Petg with a hybrid and cellular filling of 60-80%. The shoulders, as well as the base of the crossbow, are made of Petg-cf composite material with 65% filling.
+
+![5341498458231666078](https://github.com/user-attachments/assets/5ebbba23-32f7-4f90-bcd4-ca15addfd630)
+
+![5341498458231666079](https://github.com/user-attachments/assets/7336f8db-c3c4-4c21-9852-f56930ef6e37)
+
+
+
+https://github.com/user-attachments/assets/c1db068c-7e78-490d-bf08-46df0a29844e
+
+### conclusions
+
+The design turned out to be more complicated than I initially thought. Unknowingly, I chose the most complex block design - asynchronous. The big problem is how to use the material for the bowstring. The main problem is how to fix it so that the tension does not weaken. Despite this, a lot of work has been done and there is a really promising field for further development. Among other things, the task is to stabilize the rotation of the magazine and the gears themselves by adding new fixation points and changing the tolerances. the biggest problem for me was the problem of choosing the right tolerances in this model.
 
 
 
